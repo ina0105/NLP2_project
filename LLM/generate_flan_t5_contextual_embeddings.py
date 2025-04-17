@@ -3,7 +3,7 @@ import torch
 import numpy as np
 import json
 
-def get_contextual_embeddings(words, model_name="google/flan-t5-base"):
+def get_contextual_embeddings(words, model_name="google/flan-t5-xl"):
     # Load tokenizer and model
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
@@ -218,7 +218,7 @@ def main():
     embeddings = get_contextual_embeddings([])  # Empty list since we're using predefined contexts
     
     # Save embeddings to a JSON file
-    with open("flan_t5_contextual_embeddings.json", "w") as f:
+    with open("output/flan_t5_embeddings.json", "w") as f:
         json.dump(embeddings, f)
     
     print(f"Contextual embeddings generated and saved to flan_t5_contextual_embeddings.json")
