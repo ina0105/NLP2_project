@@ -13,7 +13,7 @@ def get_contextual_embeddings(words, model_name="google/flan-t5-xl"):
     model = model.to(device)
     
     # Create contextual sentences for each word
-    contexts = {
+    context = {
         "ability": "She demonstrated her ability to solve complex problems quickly.",
         "accomplished": "The accomplished musician performed a beautiful symphony.",
         "angry": "He was angry when he discovered the broken window.",

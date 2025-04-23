@@ -3,7 +3,7 @@ import torch
 import numpy as np
 import json
 
-def get_flan_t5_embeddings(words, model_name="google/flan-t5-xl"):
+def get_contextual_embeddings(words, model_name="google/flan-t5-xl"):
     # Load tokenizer and model
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
@@ -14,9 +14,10 @@ def get_flan_t5_embeddings(words, model_name="google/flan-t5-xl"):
     
     embeddings = {}
     
-    for word in words:
-        # Tokenize the word
-        inputs = tokenizer(word, return_tensors="pt", padding=True, truncation=True)
+    for word, context in words:
+        context = f"They were thinking about the {word} as they walked through the city"
+        # Tokenize the context
+        inputs = tokenizer(context, return_tensors="pt", padding=True, truncation=True)
         inputs = {k: v.to(device) for k, v in inputs.items()}
         
         # Get encoder outputs
@@ -50,18 +51,16 @@ def main():
         "tried", "typical", "unaware", "usable", "useless", "vacation", "war", "wash", "weak", "wear", "weather",
         "willingly", "word"
     ]
-    
-    print("Generating embeddings...")
-    embeddings = get_flan_t5_embeddings(words)
+    print("Generating contextual embeddings...")
+    embeddings = get_contextual_embeddings(words)  
     
     # Save embeddings to a JSON file
-    with open("output/flan_t5_embeddings_one_word.json", "w") as f:
+    with open("output/flan_t5_embeddings_one_sentence.json", "w") as f:
         json.dump(embeddings, f)
     
-    
-    print(f"Embeddings generated and saved to flan_t5_embeddings.json")
+    print(f"Contextual embeddings generated and saved to flan_t5_contextual_embeddings.json")
     print(f"Number of words processed: {len(embeddings)}")
-    print(f"Embedding dimension: {len(embeddings[words[0]])}")
+    print(f"Embedding dimension: {len(embeddings[list(embeddings.keys())[0]])}")
 
 if __name__ == "__main__":
     main() 
