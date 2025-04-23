@@ -16,7 +16,6 @@ def get_contextual_embeddings(words, model_name="google/flan-t5-xl"):
     
     for word, context in words:
         context = f"They were thinking about the {word} as they walked through the city"
-        # Tokenize the context
         inputs = tokenizer(context, return_tensors="pt", padding=True, truncation=True)
         inputs = {k: v.to(device) for k, v in inputs.items()}
         
@@ -55,10 +54,10 @@ def main():
     embeddings = get_contextual_embeddings(words)  
     
     # Save embeddings to a JSON file
-    with open("output/flan_t5_embeddings_one_sentence.json", "w") as f:
+    with open("output/flan_t5_one_general.json", "w") as f:
         json.dump(embeddings, f)
     
-    print(f"Contextual embeddings generated and saved to flan_t5_contextual_embeddings.json")
+    print(f"Contextual embeddings generated and saved to flan_t5_one_general.json")
     print(f"Number of words processed: {len(embeddings)}")
     print(f"Embedding dimension: {len(embeddings[list(embeddings.keys())[0]])}")
 

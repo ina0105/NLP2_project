@@ -12,7 +12,6 @@ def get_contextual_embeddings(words, model_name="google/flan-t5-xl"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
     
-    # Create contextual sentences for each word
     context = {
         "ability": "She demonstrated her ability to solve complex problems quickly.",
         "accomplished": "The accomplished musician performed a beautiful symphony.",
@@ -218,10 +217,10 @@ def main():
     embeddings = get_contextual_embeddings([])  # Empty list since we're using predefined contexts
     
     # Save embeddings to a JSON file
-    with open("output/flan_t5_embeddings.json", "w") as f:
+    with open("output/flan_t5_one_distinct.json", "w") as f:
         json.dump(embeddings, f)
     
-    print(f"Contextual embeddings generated and saved to flan_t5_contextual_embeddings.json")
+    print(f"Contextual embeddings generated and saved to flan_t5_one_distinct.json")
     print(f"Number of words processed: {len(embeddings)}")
     print(f"Embedding dimension: {len(embeddings[list(embeddings.keys())[0]])}")
 

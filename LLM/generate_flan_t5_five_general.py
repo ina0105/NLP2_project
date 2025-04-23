@@ -2,9 +2,8 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
 import numpy as np
 import json
-from contexts import CONTEXTS
-
-def get_multiple_context_embeddings(model_name="google/flan-t5-base"):
+from words import words  
+def get_multiple_context_embeddings(words,model_name="google/flan-t5-base"):
     # Load tokenizer and model
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
@@ -15,10 +14,15 @@ def get_multiple_context_embeddings(model_name="google/flan-t5-base"):
     
     embeddings = {}
     
-    for word, word_contexts in CONTEXTS.items():
+    contexts = [f"The topic was about {word}",
+                f"They were discussing the {word} in the meeting",
+                f"The {word} was the main focus of the conversation",
+                f"During the lecture, they mentioned the {word}",
+                f"The article discussed various aspects of {word}"] 
+    for word in words:
         word_embeddings = []
         
-        for context in word_contexts:
+        for context in contexts:
             # Tokenize the context
             inputs = tokenizer(context, return_tensors="pt", padding=True, truncation=True)
             inputs = {k: v.to(device) for k, v in inputs.items()}
@@ -39,13 +43,13 @@ def get_multiple_context_embeddings(model_name="google/flan-t5-base"):
 
 def main():
     print("Generating embeddings from multiple contexts...")
-    embeddings = get_multiple_context_embeddings()
+    embeddings = get_multiple_context_embeddings(words)
     
     # Save embeddings to a JSON file
-    with open("flan_t5_multiple_context_embeddings.json", "w") as f:
+    with open("flan_t5_five_general.json", "w") as f:
         json.dump(embeddings, f)
     
-    print(f"Embeddings generated and saved to flan_t5_multiple_context_embeddings.json")
+    print(f"Embeddings generated and saved to flan_t5_five_general.json")
     print(f"Number of words processed: {len(embeddings)}")
     print(f"Embedding dimension: {len(embeddings[list(embeddings.keys())[0]])}")
 
