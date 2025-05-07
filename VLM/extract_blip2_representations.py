@@ -13,24 +13,25 @@ processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16).to(device)
 tokenizer: PreTrainedTokenizerFast = processor.tokenizer
 
-TEMPLATE_SENTENCES = [
-    "They were thinking about the {}.",
-    "She was talking about the {}.",
-    "He dreamed of the {}.",
-    "I saw the {} in the distance.",
-    "The story was about a {}.",
-]
+TEMPLATE_SENTENCES= ["The topic was about {}",
+                "They were discussing the {} in the meeting",
+                "The {} was the main focus of the conversation",
+                "During the lecture, they mentioned the {}",
+                "The article discussed various aspects of {}"]
 
 def extract_word_token_indices(word: str, input_ids: torch.Tensor, offsets: List[Tuple[int, int]]) -> List[int]:
     """
-    Identify token indices corresponding to the word (best-effort match).
+    Match the tokenized form of the word against the input token sequence and return its indices.
     """
-    token_texts = tokenizer.convert_ids_to_tokens(input_ids.squeeze())
-    indices = []
-    for i, token in enumerate(token_texts):
-        if word.lower() in token.lower():
-            indices.append(i)
-    return indices
+    word_tokens = tokenizer(word, add_special_tokens=False).input_ids
+    input_id_list = input_ids.squeeze().tolist()
+
+    for i in range(len(input_id_list) - len(word_tokens) + 1):
+        if input_id_list[i:i+len(word_tokens)] == word_tokens:
+            return list(range(i, i + len(word_tokens)))
+
+    return []  # if no match is found
+
 
 def extract_representation_from_image_text(image_path: str, text: str, word: str) -> torch.Tensor:
     image = Image.open(image_path).convert("RGB")
@@ -54,7 +55,7 @@ def extract_representations_for_word(word: str, image_paths: List[str]) -> Dict[
     """
     Return a dictionary mapping text variant to averaged representation over the 6 images.
     """
-    text_variants = [word] + [template.format(word) for template in TEMPLATE_SENTENCES]
+    text_variants = [template.format(word) for template in TEMPLATE_SENTENCES]
     reps_by_variant = {}
 
     for text in text_variants:
