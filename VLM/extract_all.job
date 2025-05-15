@@ -2,9 +2,9 @@
 #SBATCH --partition=gpu_a100
 #SBATCH --gpus=1
 #SBATCH --job-name=blip2_repr_test
-#SBATCH --output=logs/blip2_repr_test_%j.out
-#SBATCH --error=logs/blip2_repr_test_%j.err
-#SBATCH --time=00:10:00
+#SBATCH --output=logs/blip2_extract_all_%j.out
+#SBATCH --error=logs/blip2_extract_all_%j.err
+#SBATCH --time=00:05:00
 #SBATCH --cpus-per-task=4
 
 # === Load Modules ===
@@ -15,4 +15,4 @@ module load Anaconda3/2024.06-1
 # === Activate Conda Environment ===
 source activate vlm_env
 # === Run the script ===
-srun python $HOME/NLP2_project/VLM/test_repr.py
+srun python $HOME/NLP2_project/VLM/extract_all_rep.py

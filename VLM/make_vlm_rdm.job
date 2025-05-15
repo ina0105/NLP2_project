@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --partition=gpu_a100
 #SBATCH --gpus=1
-#SBATCH --job-name=blip2_test
-#SBATCH --output=logs/blip2_test_%j.out
-#SBATCH --error=logs/blip2_test_%j.err
+#SBATCH --job-name=blip2_repr_test
+#SBATCH --output=logs/blip2_rdm_%j.out
+#SBATCH --error=logs/blip2_rdm_%j.err
 #SBATCH --time=00:05:00
 #SBATCH --cpus-per-task=4
 
@@ -15,4 +15,4 @@ module load Anaconda3/2024.06-1
 # === Activate Conda Environment ===
 source activate vlm_env
 # === Run the script ===
-srun python $HOME/NLP2_project/VLM/test_blip2.py
+srun python $HOME/NLP2_project/VLM/make_vlm_rdm.py
