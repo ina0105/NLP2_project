@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=generate_rdms
+#SBATCH --output=logs/generate_rdms.out
+#SBATCH --error=logs/generate_rdms.err
+#SBATCH --partition=gpu_mig
+#SBATCH --gpus=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --time=06:00:00
+
+module load 2023
+module load Anaconda3/2023.07-2
+conda run -n nlp2 python generate_flan_rdms.py
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=compute_rsa
+#SBATCH --output=logs/compute_rsa.out
+#SBATCH --error=logs/compute_rsa.err
+#SBATCH --partition=gpu_mig
+#SBATCH --gpus=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=9
+#SBATCH --time=06:00:00
+
+module load 2023
+module load Anaconda3/2023.07-2
+conda run -n nlp2 python compute_rsa.py
+

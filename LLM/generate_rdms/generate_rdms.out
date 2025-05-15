@@ -1,0 +1,26 @@
+Processing output/flan_t5_one_word.json...
+Saved RDMs for flan_t5_one_word (shape: (180, 180))
+Processing output/flan_t5_one_general.json...
+Saved RDMs for flan_t5_one_general (shape: (180, 180))
+Processing output/flan_t5_one_distinct.json...
+Saved RDMs for flan_t5_one_distinct (shape: (180, 180))
+Processing output/flan_t5_five_general.json...
+Saved RDMs for flan_t5_five_general (shape: (180, 180))
+Processing output/flan_t5_five_distinct.json...
+Saved RDMs for flan_t5_five_distinct (shape: (180, 180))
+
+
+JOB STATISTICS
+==============
+Job ID: 11866396
+Cluster: snellius
+User/Group: scur2185/scur2185
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:02:15 core-walltime
+Job Wall-clock time: 00:00:15
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 60.00 GB (60.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

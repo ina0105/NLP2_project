@@ -1,0 +1,3821 @@
+Generating contextual embeddings...
+
+Context: They were thinking about the ability as they walked through the city
+Word: 'ability' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'ability' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'ability': [5]
+Matched token texts: ['ability']
+managed to find the word!
+
+Context: They were thinking about the accomplished as they walked through the city
+Word: 'accomplished' (span: 29-41)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'accomplished' (span: 28-41)
+  Token 6: 'as' (span: 41-44)
+  Token 7: 'they' (span: 44-49)
+  Token 8: '' (span: 49-50)
+  Token 9: 'walked' (span: 50-56)
+  Token 10: 'through' (span: 56-64)
+  Token 11: 'the' (span: 64-68)
+  Token 12: 'city' (span: 68-73)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'accomplished': [5]
+Matched token texts: ['accomplished']
+managed to find the word!
+
+Context: They were thinking about the angry as they walked through the city
+Word: 'angry' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'angry' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'angry': [5]
+Matched token texts: ['angry']
+managed to find the word!
+
+Context: They were thinking about the apartment as they walked through the city
+Word: 'apartment' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'apartment' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'apartment': [5]
+Matched token texts: ['apartment']
+managed to find the word!
+
+Context: They were thinking about the applause as they walked through the city
+Word: 'applause' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'app' (span: 28-32)
+  Token 6: 'la' (span: 32-34)
+  Token 7: 'use' (span: 34-37)
+  Token 8: 'as' (span: 37-40)
+  Token 9: 'they' (span: 40-45)
+  Token 10: '' (span: 45-46)
+  Token 11: 'walked' (span: 46-52)
+  Token 12: 'through' (span: 52-60)
+  Token 13: 'the' (span: 60-64)
+  Token 14: 'city' (span: 64-69)
+  Token 15: '</s>' (span: 0-0)
+Matched token indices for 'applause': [5, 6, 7]
+Matched token texts: ['app', 'la', 'use']
+managed to find the word!
+
+Context: They were thinking about the argument as they walked through the city
+Word: 'argument' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'argument' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'argument': [5]
+Matched token texts: ['argument']
+managed to find the word!
+
+Context: They were thinking about the argumentatively as they walked through the city
+Word: 'argumentatively' (span: 29-44)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'argument' (span: 28-37)
+  Token 6: 'ative' (span: 37-42)
+  Token 7: 'ly' (span: 42-44)
+  Token 8: 'as' (span: 44-47)
+  Token 9: 'they' (span: 47-52)
+  Token 10: '' (span: 52-53)
+  Token 11: 'walked' (span: 53-59)
+  Token 12: 'through' (span: 59-67)
+  Token 13: 'the' (span: 67-71)
+  Token 14: 'city' (span: 71-76)
+  Token 15: '</s>' (span: 0-0)
+Matched token indices for 'argumentatively': [5, 6, 7]
+Matched token texts: ['argument', 'ative', 'ly']
+managed to find the word!
+
+Context: They were thinking about the art as they walked through the city
+Word: 'art' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'art' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'art': [5]
+Matched token texts: ['art']
+managed to find the word!
+
+Context: They were thinking about the attitude as they walked through the city
+Word: 'attitude' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'attitude' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'attitude': [5]
+Matched token texts: ['attitude']
+managed to find the word!
+
+Context: They were thinking about the bag as they walked through the city
+Word: 'bag' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'bag' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'bag': [5]
+Matched token texts: ['bag']
+managed to find the word!
+
+Context: They were thinking about the ball as they walked through the city
+Word: 'ball' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'ball' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'ball': [5]
+Matched token texts: ['ball']
+managed to find the word!
+
+Context: They were thinking about the bar as they walked through the city
+Word: 'bar' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'bar' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'bar': [5]
+Matched token texts: ['bar']
+managed to find the word!
+
+Context: They were thinking about the bear as they walked through the city
+Word: 'bear' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'bear' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'bear': [5]
+Matched token texts: ['bear']
+managed to find the word!
+
+Context: They were thinking about the beat as they walked through the city
+Word: 'beat' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'beat' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'beat': [5]
+Matched token texts: ['beat']
+managed to find the word!
+
+Context: They were thinking about the bed as they walked through the city
+Word: 'bed' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'bed' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'bed': [5]
+Matched token texts: ['bed']
+managed to find the word!
+
+Context: They were thinking about the beer as they walked through the city
+Word: 'beer' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'beer' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'beer': [5]
+Matched token texts: ['beer']
+managed to find the word!
+
+Context: They were thinking about the big as they walked through the city
+Word: 'big' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'big' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'big': [5]
+Matched token texts: ['big']
+managed to find the word!
+
+Context: They were thinking about the bird as they walked through the city
+Word: 'bird' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'bird' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'bird': [5]
+Matched token texts: ['bird']
+managed to find the word!
+
+Context: They were thinking about the blood as they walked through the city
+Word: 'blood' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'blood' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'blood': [5]
+Matched token texts: ['blood']
+managed to find the word!
+
+Context: They were thinking about the body as they walked through the city
+Word: 'body' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'body' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'body': [5]
+Matched token texts: ['body']
+managed to find the word!
+
+Context: They were thinking about the brain as they walked through the city
+Word: 'brain' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'brain' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'brain': [5]
+Matched token texts: ['brain']
+managed to find the word!
+
+Context: They were thinking about the broken as they walked through the city
+Word: 'broken' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'broken' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'broken': [5]
+Matched token texts: ['broken']
+managed to find the word!
+
+Context: They were thinking about the building as they walked through the city
+Word: 'building' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'building' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'building': [5]
+Matched token texts: ['building']
+managed to find the word!
+
+Context: They were thinking about the burn as they walked through the city
+Word: 'burn' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'burn' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'burn': [5]
+Matched token texts: ['burn']
+managed to find the word!
+
+Context: They were thinking about the business as they walked through the city
+Word: 'business' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'business' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'business': [5]
+Matched token texts: ['business']
+managed to find the word!
+
+Context: They were thinking about the camera as they walked through the city
+Word: 'camera' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'camera' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'camera': [5]
+Matched token texts: ['camera']
+managed to find the word!
+
+Context: They were thinking about the carefully as they walked through the city
+Word: 'carefully' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'carefully' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'carefully': [5]
+Matched token texts: ['carefully']
+managed to find the word!
+
+Context: They were thinking about the challenge as they walked through the city
+Word: 'challenge' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'challenge' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'challenge': [5]
+Matched token texts: ['challenge']
+managed to find the word!
+
+Context: They were thinking about the charity as they walked through the city
+Word: 'charity' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'charity' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'charity': [5]
+Matched token texts: ['charity']
+managed to find the word!
+
+Context: They were thinking about the charming as they walked through the city
+Word: 'charming' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'charming' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'charming': [5]
+Matched token texts: ['charming']
+managed to find the word!
+
+Context: They were thinking about the clothes as they walked through the city
+Word: 'clothes' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'clothes' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'clothes': [5]
+Matched token texts: ['clothes']
+managed to find the word!
+
+Context: They were thinking about the cockroach as they walked through the city
+Word: 'cockroach' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: '' (span: 28-29)
+  Token 6: 'cock' (span: 29-33)
+  Token 7: 'roach' (span: 33-38)
+  Token 8: 'as' (span: 38-41)
+  Token 9: 'they' (span: 41-46)
+  Token 10: '' (span: 46-47)
+  Token 11: 'walked' (span: 47-53)
+  Token 12: 'through' (span: 53-61)
+  Token 13: 'the' (span: 61-65)
+  Token 14: 'city' (span: 65-70)
+  Token 15: '</s>' (span: 0-0)
+Matched token indices for 'cockroach': [6, 7]
+Matched token texts: ['cock', 'roach']
+managed to find the word!
+
+Context: They were thinking about the code as they walked through the city
+Word: 'code' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'code' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'code': [5]
+Matched token texts: ['code']
+managed to find the word!
+
+Context: They were thinking about the collection as they walked through the city
+Word: 'collection' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'collection' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'collection': [5]
+Matched token texts: ['collection']
+managed to find the word!
+
+Context: They were thinking about the computer as they walked through the city
+Word: 'computer' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'computer' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'computer': [5]
+Matched token texts: ['computer']
+managed to find the word!
+
+Context: They were thinking about the construction as they walked through the city
+Word: 'construction' (span: 29-41)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'construction' (span: 28-41)
+  Token 6: 'as' (span: 41-44)
+  Token 7: 'they' (span: 44-49)
+  Token 8: '' (span: 49-50)
+  Token 9: 'walked' (span: 50-56)
+  Token 10: 'through' (span: 56-64)
+  Token 11: 'the' (span: 64-68)
+  Token 12: 'city' (span: 68-73)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'construction': [5]
+Matched token texts: ['construction']
+managed to find the word!
+
+Context: They were thinking about the cook as they walked through the city
+Word: 'cook' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'cook' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'cook': [5]
+Matched token texts: ['cook']
+managed to find the word!
+
+Context: They were thinking about the counting as they walked through the city
+Word: 'counting' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'counting' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'counting': [5]
+Matched token texts: ['counting']
+managed to find the word!
+
+Context: They were thinking about the crazy as they walked through the city
+Word: 'crazy' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'crazy' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'crazy': [5]
+Matched token texts: ['crazy']
+managed to find the word!
+
+Context: They were thinking about the damage as they walked through the city
+Word: 'damage' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'damage' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'damage': [5]
+Matched token texts: ['damage']
+managed to find the word!
+
+Context: They were thinking about the dance as they walked through the city
+Word: 'dance' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dance' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dance': [5]
+Matched token texts: ['dance']
+managed to find the word!
+
+Context: They were thinking about the dangerous as they walked through the city
+Word: 'dangerous' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dangerous' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dangerous': [5]
+Matched token texts: ['dangerous']
+managed to find the word!
+
+Context: They were thinking about the deceive as they walked through the city
+Word: 'deceive' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'de' (span: 28-31)
+  Token 6: 'ce' (span: 31-33)
+  Token 7: 'ive' (span: 33-36)
+  Token 8: 'as' (span: 36-39)
+  Token 9: 'they' (span: 39-44)
+  Token 10: '' (span: 44-45)
+  Token 11: 'walked' (span: 45-51)
+  Token 12: 'through' (span: 51-59)
+  Token 13: 'the' (span: 59-63)
+  Token 14: 'city' (span: 63-68)
+  Token 15: '</s>' (span: 0-0)
+Matched token indices for 'deceive': [5, 6, 7]
+Matched token texts: ['de', 'ce', 'ive']
+managed to find the word!
+
+Context: They were thinking about the dedication as they walked through the city
+Word: 'dedication' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dedication' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dedication': [5]
+Matched token texts: ['dedication']
+managed to find the word!
+
+Context: They were thinking about the deliberately as they walked through the city
+Word: 'deliberately' (span: 29-41)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'deliberately' (span: 28-41)
+  Token 6: 'as' (span: 41-44)
+  Token 7: 'they' (span: 44-49)
+  Token 8: '' (span: 49-50)
+  Token 9: 'walked' (span: 50-56)
+  Token 10: 'through' (span: 56-64)
+  Token 11: 'the' (span: 64-68)
+  Token 12: 'city' (span: 68-73)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'deliberately': [5]
+Matched token texts: ['deliberately']
+managed to find the word!
+
+Context: They were thinking about the delivery as they walked through the city
+Word: 'delivery' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'delivery' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'delivery': [5]
+Matched token texts: ['delivery']
+managed to find the word!
+
+Context: They were thinking about the dessert as they walked through the city
+Word: 'dessert' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dessert' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dessert': [5]
+Matched token texts: ['dessert']
+managed to find the word!
+
+Context: They were thinking about the device as they walked through the city
+Word: 'device' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'device' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'device': [5]
+Matched token texts: ['device']
+managed to find the word!
+
+Context: They were thinking about the dig as they walked through the city
+Word: 'dig' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dig' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dig': [5]
+Matched token texts: ['dig']
+managed to find the word!
+
+Context: They were thinking about the dinner as they walked through the city
+Word: 'dinner' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dinner' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dinner': [5]
+Matched token texts: ['dinner']
+managed to find the word!
+
+Context: They were thinking about the disease as they walked through the city
+Word: 'disease' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'disease' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'disease': [5]
+Matched token texts: ['disease']
+managed to find the word!
+
+Context: They were thinking about the dissolve as they walked through the city
+Word: 'dissolve' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dissolve' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dissolve': [5]
+Matched token texts: ['dissolve']
+managed to find the word!
+
+Context: They were thinking about the disturb as they walked through the city
+Word: 'disturb' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'disturb' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'disturb': [5]
+Matched token texts: ['disturb']
+managed to find the word!
+
+Context: They were thinking about the do as they walked through the city
+Word: 'do' (span: 29-31)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'do' (span: 28-31)
+  Token 6: 'as' (span: 31-34)
+  Token 7: 'they' (span: 34-39)
+  Token 8: '' (span: 39-40)
+  Token 9: 'walked' (span: 40-46)
+  Token 10: 'through' (span: 46-54)
+  Token 11: 'the' (span: 54-58)
+  Token 12: 'city' (span: 58-63)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'do': [5]
+Matched token texts: ['do']
+managed to find the word!
+
+Context: They were thinking about the doctor as they walked through the city
+Word: 'doctor' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'doctor' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'doctor': [5]
+Matched token texts: ['doctor']
+managed to find the word!
+
+Context: They were thinking about the dog as they walked through the city
+Word: 'dog' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dog' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dog': [5]
+Matched token texts: ['dog']
+managed to find the word!
+
+Context: They were thinking about the dressing as they walked through the city
+Word: 'dressing' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'dressing' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'dressing': [5]
+Matched token texts: ['dressing']
+managed to find the word!
+
+Context: They were thinking about the driver as they walked through the city
+Word: 'driver' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'driver' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'driver': [5]
+Matched token texts: ['driver']
+managed to find the word!
+
+Context: They were thinking about the economy as they walked through the city
+Word: 'economy' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'economy' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'economy': [5]
+Matched token texts: ['economy']
+managed to find the word!
+
+Context: They were thinking about the election as they walked through the city
+Word: 'election' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'election' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'election': [5]
+Matched token texts: ['election']
+managed to find the word!
+
+Context: They were thinking about the electron as they walked through the city
+Word: 'electron' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'electron' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'electron': [5]
+Matched token texts: ['electron']
+managed to find the word!
+
+Context: They were thinking about the elegance as they walked through the city
+Word: 'elegance' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'elegance' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'elegance': [5]
+Matched token texts: ['elegance']
+managed to find the word!
+
+Context: They were thinking about the emotion as they walked through the city
+Word: 'emotion' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'emotion' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'emotion': [5]
+Matched token texts: ['emotion']
+managed to find the word!
+
+Context: They were thinking about the emotionally as they walked through the city
+Word: 'emotionally' (span: 29-40)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'emotionally' (span: 28-40)
+  Token 6: 'as' (span: 40-43)
+  Token 7: 'they' (span: 43-48)
+  Token 8: '' (span: 48-49)
+  Token 9: 'walked' (span: 49-55)
+  Token 10: 'through' (span: 55-63)
+  Token 11: 'the' (span: 63-67)
+  Token 12: 'city' (span: 67-72)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'emotionally': [5]
+Matched token texts: ['emotionally']
+managed to find the word!
+
+Context: They were thinking about the engine as they walked through the city
+Word: 'engine' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'engine' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'engine': [5]
+Matched token texts: ['engine']
+managed to find the word!
+
+Context: They were thinking about the event as they walked through the city
+Word: 'event' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'event' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'event': [5]
+Matched token texts: ['event']
+managed to find the word!
+
+Context: They were thinking about the experiment as they walked through the city
+Word: 'experiment' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'experiment' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'experiment': [5]
+Matched token texts: ['experiment']
+managed to find the word!
+
+Context: They were thinking about the extremely as they walked through the city
+Word: 'extremely' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'extremely' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'extremely': [5]
+Matched token texts: ['extremely']
+managed to find the word!
+
+Context: They were thinking about the feeling as they walked through the city
+Word: 'feeling' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'feeling' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'feeling': [5]
+Matched token texts: ['feeling']
+managed to find the word!
+
+Context: They were thinking about the fight as they walked through the city
+Word: 'fight' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'fight' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'fight': [5]
+Matched token texts: ['fight']
+managed to find the word!
+
+Context: They were thinking about the fish as they walked through the city
+Word: 'fish' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'fish' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'fish': [5]
+Matched token texts: ['fish']
+managed to find the word!
+
+Context: They were thinking about the flow as they walked through the city
+Word: 'flow' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'flow' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'flow': [5]
+Matched token texts: ['flow']
+managed to find the word!
+
+Context: They were thinking about the food as they walked through the city
+Word: 'food' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'food' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'food': [5]
+Matched token texts: ['food']
+managed to find the word!
+
+Context: They were thinking about the garbage as they walked through the city
+Word: 'garbage' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'garbage' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'garbage': [5]
+Matched token texts: ['garbage']
+managed to find the word!
+
+Context: They were thinking about the gold as they walked through the city
+Word: 'gold' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'gold' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'gold': [5]
+Matched token texts: ['gold']
+managed to find the word!
+
+Context: They were thinking about the great as they walked through the city
+Word: 'great' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'great' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'great': [5]
+Matched token texts: ['great']
+managed to find the word!
+
+Context: They were thinking about the gun as they walked through the city
+Word: 'gun' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'gun' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'gun': [5]
+Matched token texts: ['gun']
+managed to find the word!
+
+Context: They were thinking about the hair as they walked through the city
+Word: 'hair' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'hair' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'hair': [5]
+Matched token texts: ['hair']
+managed to find the word!
+
+Context: They were thinking about the help as they walked through the city
+Word: 'help' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'help' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'help': [5]
+Matched token texts: ['help']
+managed to find the word!
+
+Context: They were thinking about the hurting as they walked through the city
+Word: 'hurting' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'hurt' (span: 28-33)
+  Token 6: 'ing' (span: 33-36)
+  Token 7: 'as' (span: 36-39)
+  Token 8: 'they' (span: 39-44)
+  Token 9: '' (span: 44-45)
+  Token 10: 'walked' (span: 45-51)
+  Token 11: 'through' (span: 51-59)
+  Token 12: 'the' (span: 59-63)
+  Token 13: 'city' (span: 63-68)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'hurting': [5, 6]
+Matched token texts: ['hurt', 'ing']
+managed to find the word!
+
+Context: They were thinking about the ignorance as they walked through the city
+Word: 'ignorance' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'ignorance' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'ignorance': [5]
+Matched token texts: ['ignorance']
+managed to find the word!
+
+Context: They were thinking about the illness as they walked through the city
+Word: 'illness' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'illness' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'illness': [5]
+Matched token texts: ['illness']
+managed to find the word!
+
+Context: They were thinking about the impress as they walked through the city
+Word: 'impress' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'impress' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'impress': [5]
+Matched token texts: ['impress']
+managed to find the word!
+
+Context: They were thinking about the invention as they walked through the city
+Word: 'invention' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'invention' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'invention': [5]
+Matched token texts: ['invention']
+managed to find the word!
+
+Context: They were thinking about the investigation as they walked through the city
+Word: 'investigation' (span: 29-42)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'investigation' (span: 28-42)
+  Token 6: 'as' (span: 42-45)
+  Token 7: 'they' (span: 45-50)
+  Token 8: '' (span: 50-51)
+  Token 9: 'walked' (span: 51-57)
+  Token 10: 'through' (span: 57-65)
+  Token 11: 'the' (span: 65-69)
+  Token 12: 'city' (span: 69-74)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'investigation': [5]
+Matched token texts: ['investigation']
+managed to find the word!
+
+Context: They were thinking about the invisible as they walked through the city
+Word: 'invisible' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'invisible' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'invisible': [5]
+Matched token texts: ['invisible']
+managed to find the word!
+
+Context: They were thinking about the job as they walked through the city
+Word: 'job' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'job' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'job': [5]
+Matched token texts: ['job']
+managed to find the word!
+
+Context: They were thinking about the jungle as they walked through the city
+Word: 'jungle' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'jungle' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'jungle': [5]
+Matched token texts: ['jungle']
+managed to find the word!
+
+Context: They were thinking about the kindness as they walked through the city
+Word: 'kindness' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'kindness' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'kindness': [5]
+Matched token texts: ['kindness']
+managed to find the word!
+
+Context: They were thinking about the king as they walked through the city
+Word: 'king' (span: 14-18)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: '' (span: 28-29)
+  Token 6: 'king' (span: 29-33)
+  Token 7: 'as' (span: 33-36)
+  Token 8: 'they' (span: 36-41)
+  Token 9: '' (span: 41-42)
+  Token 10: 'walked' (span: 42-48)
+  Token 11: 'through' (span: 48-56)
+  Token 12: 'the' (span: 56-60)
+  Token 13: 'city' (span: 60-65)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'king': [2]
+Matched token texts: ['thinking']
+managed to find the word!
+
+Context: They were thinking about the lady as they walked through the city
+Word: 'lady' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'lady' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'lady': [5]
+Matched token texts: ['lady']
+managed to find the word!
+
+Context: They were thinking about the land as they walked through the city
+Word: 'land' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'land' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'land': [5]
+Matched token texts: ['land']
+managed to find the word!
+
+Context: They were thinking about the laugh as they walked through the city
+Word: 'laugh' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'laugh' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'laugh': [5]
+Matched token texts: ['laugh']
+managed to find the word!
+
+Context: They were thinking about the law as they walked through the city
+Word: 'law' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'law' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'law': [5]
+Matched token texts: ['law']
+managed to find the word!
+
+Context: They were thinking about the left as they walked through the city
+Word: 'left' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'left' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'left': [5]
+Matched token texts: ['left']
+managed to find the word!
+
+Context: They were thinking about the level as they walked through the city
+Word: 'level' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'level' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'level': [5]
+Matched token texts: ['level']
+managed to find the word!
+
+Context: They were thinking about the liar as they walked through the city
+Word: 'liar' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: '' (span: 28-29)
+  Token 6: 'l' (span: 29-30)
+  Token 7: 'i' (span: 30-31)
+  Token 8: 'ar' (span: 31-33)
+  Token 9: 'as' (span: 33-36)
+  Token 10: 'they' (span: 36-41)
+  Token 11: '' (span: 41-42)
+  Token 12: 'walked' (span: 42-48)
+  Token 13: 'through' (span: 48-56)
+  Token 14: 'the' (span: 56-60)
+  Token 15: 'city' (span: 60-65)
+  Token 16: '</s>' (span: 0-0)
+Matched token indices for 'liar': [6, 7, 8]
+Matched token texts: ['l', 'i', 'ar']
+managed to find the word!
+
+Context: They were thinking about the light as they walked through the city
+Word: 'light' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'light' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'light': [5]
+Matched token texts: ['light']
+managed to find the word!
+
+Context: They were thinking about the magic as they walked through the city
+Word: 'magic' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'magic' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'magic': [5]
+Matched token texts: ['magic']
+managed to find the word!
+
+Context: They were thinking about the marriage as they walked through the city
+Word: 'marriage' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'marriage' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'marriage': [5]
+Matched token texts: ['marriage']
+managed to find the word!
+
+Context: They were thinking about the material as they walked through the city
+Word: 'material' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'material' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'material': [5]
+Matched token texts: ['material']
+managed to find the word!
+
+Context: They were thinking about the mathematical as they walked through the city
+Word: 'mathematical' (span: 29-41)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'mathematical' (span: 28-41)
+  Token 6: 'as' (span: 41-44)
+  Token 7: 'they' (span: 44-49)
+  Token 8: '' (span: 49-50)
+  Token 9: 'walked' (span: 50-56)
+  Token 10: 'through' (span: 56-64)
+  Token 11: 'the' (span: 64-68)
+  Token 12: 'city' (span: 68-73)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'mathematical': [5]
+Matched token texts: ['mathematical']
+managed to find the word!
+
+Context: They were thinking about the mechanism as they walked through the city
+Word: 'mechanism' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'mechanism' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'mechanism': [5]
+Matched token texts: ['mechanism']
+managed to find the word!
+
+Context: They were thinking about the medication as they walked through the city
+Word: 'medication' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'medication' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'medication': [5]
+Matched token texts: ['medication']
+managed to find the word!
+
+Context: They were thinking about the money as they walked through the city
+Word: 'money' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'money' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'money': [5]
+Matched token texts: ['money']
+managed to find the word!
+
+Context: They were thinking about the mountain as they walked through the city
+Word: 'mountain' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'mountain' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'mountain': [5]
+Matched token texts: ['mountain']
+managed to find the word!
+
+Context: They were thinking about the movement as they walked through the city
+Word: 'movement' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'movement' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'movement': [5]
+Matched token texts: ['movement']
+managed to find the word!
+
+Context: They were thinking about the movie as they walked through the city
+Word: 'movie' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'movie' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'movie': [5]
+Matched token texts: ['movie']
+managed to find the word!
+
+Context: They were thinking about the music as they walked through the city
+Word: 'music' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'music' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'music': [5]
+Matched token texts: ['music']
+managed to find the word!
+
+Context: They were thinking about the nation as they walked through the city
+Word: 'nation' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'nation' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'nation': [5]
+Matched token texts: ['nation']
+managed to find the word!
+
+Context: They were thinking about the news as they walked through the city
+Word: 'news' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'news' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'news': [5]
+Matched token texts: ['news']
+managed to find the word!
+
+Context: They were thinking about the noise as they walked through the city
+Word: 'noise' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'noise' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'noise': [5]
+Matched token texts: ['noise']
+managed to find the word!
+
+Context: They were thinking about the obligation as they walked through the city
+Word: 'obligation' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'obligation' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'obligation': [5]
+Matched token texts: ['obligation']
+managed to find the word!
+
+Context: They were thinking about the pain as they walked through the city
+Word: 'pain' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'pain' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'pain': [5]
+Matched token texts: ['pain']
+managed to find the word!
+
+Context: They were thinking about the personality as they walked through the city
+Word: 'personality' (span: 29-40)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'personality' (span: 28-40)
+  Token 6: 'as' (span: 40-43)
+  Token 7: 'they' (span: 43-48)
+  Token 8: '' (span: 48-49)
+  Token 9: 'walked' (span: 49-55)
+  Token 10: 'through' (span: 55-63)
+  Token 11: 'the' (span: 63-67)
+  Token 12: 'city' (span: 67-72)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'personality': [5]
+Matched token texts: ['personality']
+managed to find the word!
+
+Context: They were thinking about the philosophy as they walked through the city
+Word: 'philosophy' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'philosophy' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'philosophy': [5]
+Matched token texts: ['philosophy']
+managed to find the word!
+
+Context: They were thinking about the picture as they walked through the city
+Word: 'picture' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'picture' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'picture': [5]
+Matched token texts: ['picture']
+managed to find the word!
+
+Context: They were thinking about the pig as they walked through the city
+Word: 'pig' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: '' (span: 28-29)
+  Token 6: 'pig' (span: 29-32)
+  Token 7: 'as' (span: 32-35)
+  Token 8: 'they' (span: 35-40)
+  Token 9: '' (span: 40-41)
+  Token 10: 'walked' (span: 41-47)
+  Token 11: 'through' (span: 47-55)
+  Token 12: 'the' (span: 55-59)
+  Token 13: 'city' (span: 59-64)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'pig': [6]
+Matched token texts: ['pig']
+managed to find the word!
+
+Context: They were thinking about the plan as they walked through the city
+Word: 'plan' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'plan' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'plan': [5]
+Matched token texts: ['plan']
+managed to find the word!
+
+Context: They were thinking about the plant as they walked through the city
+Word: 'plant' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'plant' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'plant': [5]
+Matched token texts: ['plant']
+managed to find the word!
+
+Context: They were thinking about the play as they walked through the city
+Word: 'play' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'play' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'play': [5]
+Matched token texts: ['play']
+managed to find the word!
+
+Context: They were thinking about the pleasure as they walked through the city
+Word: 'pleasure' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'pleasure' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'pleasure': [5]
+Matched token texts: ['pleasure']
+managed to find the word!
+
+Context: They were thinking about the poor as they walked through the city
+Word: 'poor' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'poor' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'poor': [5]
+Matched token texts: ['poor']
+managed to find the word!
+
+Context: They were thinking about the prison as they walked through the city
+Word: 'prison' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'prison' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'prison': [5]
+Matched token texts: ['prison']
+managed to find the word!
+
+Context: They were thinking about the professional as they walked through the city
+Word: 'professional' (span: 29-41)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'professional' (span: 28-41)
+  Token 6: 'as' (span: 41-44)
+  Token 7: 'they' (span: 44-49)
+  Token 8: '' (span: 49-50)
+  Token 9: 'walked' (span: 50-56)
+  Token 10: 'through' (span: 56-64)
+  Token 11: 'the' (span: 64-68)
+  Token 12: 'city' (span: 68-73)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'professional': [5]
+Matched token texts: ['professional']
+managed to find the word!
+
+Context: They were thinking about the protection as they walked through the city
+Word: 'protection' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'protection' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'protection': [5]
+Matched token texts: ['protection']
+managed to find the word!
+
+Context: They were thinking about the quality as they walked through the city
+Word: 'quality' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'quality' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'quality': [5]
+Matched token texts: ['quality']
+managed to find the word!
+
+Context: They were thinking about the reaction as they walked through the city
+Word: 'reaction' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'reaction' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'reaction': [5]
+Matched token texts: ['reaction']
+managed to find the word!
+
+Context: They were thinking about the read as they walked through the city
+Word: 'read' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'read' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'read': [5]
+Matched token texts: ['read']
+managed to find the word!
+
+Context: They were thinking about the relationship as they walked through the city
+Word: 'relationship' (span: 29-41)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'relationship' (span: 28-41)
+  Token 6: 'as' (span: 41-44)
+  Token 7: 'they' (span: 44-49)
+  Token 8: '' (span: 49-50)
+  Token 9: 'walked' (span: 50-56)
+  Token 10: 'through' (span: 56-64)
+  Token 11: 'the' (span: 64-68)
+  Token 12: 'city' (span: 68-73)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'relationship': [5]
+Matched token texts: ['relationship']
+managed to find the word!
+
+Context: They were thinking about the religious as they walked through the city
+Word: 'religious' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'religious' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'religious': [5]
+Matched token texts: ['religious']
+managed to find the word!
+
+Context: They were thinking about the residence as they walked through the city
+Word: 'residence' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'residence' (span: 28-38)
+  Token 6: 'as' (span: 38-41)
+  Token 7: 'they' (span: 41-46)
+  Token 8: '' (span: 46-47)
+  Token 9: 'walked' (span: 47-53)
+  Token 10: 'through' (span: 53-61)
+  Token 11: 'the' (span: 61-65)
+  Token 12: 'city' (span: 65-70)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'residence': [5]
+Matched token texts: ['residence']
+managed to find the word!
+
+Context: They were thinking about the road as they walked through the city
+Word: 'road' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'road' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'road': [5]
+Matched token texts: ['road']
+managed to find the word!
+
+Context: They were thinking about the sad as they walked through the city
+Word: 'sad' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'sad' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'sad': [5]
+Matched token texts: ['sad']
+managed to find the word!
+
+Context: They were thinking about the science as they walked through the city
+Word: 'science' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'science' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'science': [5]
+Matched token texts: ['science']
+managed to find the word!
+
+Context: They were thinking about the seafood as they walked through the city
+Word: 'seafood' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'seafood' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'seafood': [5]
+Matched token texts: ['seafood']
+managed to find the word!
+
+Context: They were thinking about the sell as they walked through the city
+Word: 'sell' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'sell' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'sell': [5]
+Matched token texts: ['sell']
+managed to find the word!
+
+Context: They were thinking about the sew as they walked through the city
+Word: 'sew' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'se' (span: 28-31)
+  Token 6: 'w' (span: 31-32)
+  Token 7: 'as' (span: 32-35)
+  Token 8: 'they' (span: 35-40)
+  Token 9: '' (span: 40-41)
+  Token 10: 'walked' (span: 41-47)
+  Token 11: 'through' (span: 47-55)
+  Token 12: 'the' (span: 55-59)
+  Token 13: 'city' (span: 59-64)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'sew': [5, 6]
+Matched token texts: ['se', 'w']
+managed to find the word!
+
+Context: They were thinking about the sexy as they walked through the city
+Word: 'sexy' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: '' (span: 28-29)
+  Token 6: 's' (span: 29-30)
+  Token 7: 'ex' (span: 30-32)
+  Token 8: 'y' (span: 32-33)
+  Token 9: 'as' (span: 33-36)
+  Token 10: 'they' (span: 36-41)
+  Token 11: '' (span: 41-42)
+  Token 12: 'walked' (span: 42-48)
+  Token 13: 'through' (span: 48-56)
+  Token 14: 'the' (span: 56-60)
+  Token 15: 'city' (span: 60-65)
+  Token 16: '</s>' (span: 0-0)
+Matched token indices for 'sexy': [6, 7, 8]
+Matched token texts: ['s', 'ex', 'y']
+managed to find the word!
+
+Context: They were thinking about the shape as they walked through the city
+Word: 'shape' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'shape' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'shape': [5]
+Matched token texts: ['shape']
+managed to find the word!
+
+Context: They were thinking about the ship as they walked through the city
+Word: 'ship' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'ship' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'ship': [5]
+Matched token texts: ['ship']
+managed to find the word!
+
+Context: They were thinking about the show as they walked through the city
+Word: 'show' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'show' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'show': [5]
+Matched token texts: ['show']
+managed to find the word!
+
+Context: They were thinking about the sign as they walked through the city
+Word: 'sign' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'sign' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'sign': [5]
+Matched token texts: ['sign']
+managed to find the word!
+
+Context: They were thinking about the silly as they walked through the city
+Word: 'silly' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'silly' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'silly': [5]
+Matched token texts: ['silly']
+managed to find the word!
+
+Context: They were thinking about the sin as they walked through the city
+Word: 'sin' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'sin' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'sin': [5]
+Matched token texts: ['sin']
+managed to find the word!
+
+Context: They were thinking about the skin as they walked through the city
+Word: 'skin' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'skin' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'skin': [5]
+Matched token texts: ['skin']
+managed to find the word!
+
+Context: They were thinking about the smart as they walked through the city
+Word: 'smart' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'smart' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'smart': [5]
+Matched token texts: ['smart']
+managed to find the word!
+
+Context: They were thinking about the smiling as they walked through the city
+Word: 'smiling' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'smiling' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'smiling': [5]
+Matched token texts: ['smiling']
+managed to find the word!
+
+Context: They were thinking about the solution as they walked through the city
+Word: 'solution' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'solution' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'solution': [5]
+Matched token texts: ['solution']
+managed to find the word!
+
+Context: They were thinking about the soul as they walked through the city
+Word: 'soul' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'soul' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'soul': [5]
+Matched token texts: ['soul']
+managed to find the word!
+
+Context: They were thinking about the sound as they walked through the city
+Word: 'sound' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'sound' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'sound': [5]
+Matched token texts: ['sound']
+managed to find the word!
+
+Context: They were thinking about the spoke as they walked through the city
+Word: 'spoke' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'spoke' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'spoke': [5]
+Matched token texts: ['spoke']
+managed to find the word!
+
+Context: They were thinking about the star as they walked through the city
+Word: 'star' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'star' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'star': [5]
+Matched token texts: ['star']
+managed to find the word!
+
+Context: They were thinking about the student as they walked through the city
+Word: 'student' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'student' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'student': [5]
+Matched token texts: ['student']
+managed to find the word!
+
+Context: They were thinking about the stupid as they walked through the city
+Word: 'stupid' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'stupid' (span: 28-35)
+  Token 6: 'as' (span: 35-38)
+  Token 7: 'they' (span: 38-43)
+  Token 8: '' (span: 43-44)
+  Token 9: 'walked' (span: 44-50)
+  Token 10: 'through' (span: 50-58)
+  Token 11: 'the' (span: 58-62)
+  Token 12: 'city' (span: 62-67)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'stupid': [5]
+Matched token texts: ['stupid']
+managed to find the word!
+
+Context: They were thinking about the successful as they walked through the city
+Word: 'successful' (span: 29-39)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'successful' (span: 28-39)
+  Token 6: 'as' (span: 39-42)
+  Token 7: 'they' (span: 42-47)
+  Token 8: '' (span: 47-48)
+  Token 9: 'walked' (span: 48-54)
+  Token 10: 'through' (span: 54-62)
+  Token 11: 'the' (span: 62-66)
+  Token 12: 'city' (span: 66-71)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'successful': [5]
+Matched token texts: ['successful']
+managed to find the word!
+
+Context: They were thinking about the sugar as they walked through the city
+Word: 'sugar' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'sugar' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'sugar': [5]
+Matched token texts: ['sugar']
+managed to find the word!
+
+Context: They were thinking about the suspect as they walked through the city
+Word: 'suspect' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'suspect' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'suspect': [5]
+Matched token texts: ['suspect']
+managed to find the word!
+
+Context: They were thinking about the table as they walked through the city
+Word: 'table' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'table' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'table': [5]
+Matched token texts: ['table']
+managed to find the word!
+
+Context: They were thinking about the taste as they walked through the city
+Word: 'taste' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'taste' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'taste': [5]
+Matched token texts: ['taste']
+managed to find the word!
+
+Context: They were thinking about the team as they walked through the city
+Word: 'team' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'team' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'team': [5]
+Matched token texts: ['team']
+managed to find the word!
+
+Context: They were thinking about the texture as they walked through the city
+Word: 'texture' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'texture' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'texture': [5]
+Matched token texts: ['texture']
+managed to find the word!
+
+Context: They were thinking about the time as they walked through the city
+Word: 'time' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'time' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'time': [5]
+Matched token texts: ['time']
+managed to find the word!
+
+Context: They were thinking about the tool as they walked through the city
+Word: 'tool' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'tool' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'tool': [5]
+Matched token texts: ['tool']
+managed to find the word!
+
+Context: They were thinking about the toy as they walked through the city
+Word: 'toy' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'to' (span: 28-31)
+  Token 6: 'y' (span: 31-32)
+  Token 7: 'as' (span: 32-35)
+  Token 8: 'they' (span: 35-40)
+  Token 9: '' (span: 40-41)
+  Token 10: 'walked' (span: 41-47)
+  Token 11: 'through' (span: 47-55)
+  Token 12: 'the' (span: 55-59)
+  Token 13: 'city' (span: 59-64)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'toy': [5, 6]
+Matched token texts: ['to', 'y']
+managed to find the word!
+
+Context: They were thinking about the tree as they walked through the city
+Word: 'tree' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'tree' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'tree': [5]
+Matched token texts: ['tree']
+managed to find the word!
+
+Context: They were thinking about the trial as they walked through the city
+Word: 'trial' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'trial' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'trial': [5]
+Matched token texts: ['trial']
+managed to find the word!
+
+Context: They were thinking about the tried as they walked through the city
+Word: 'tried' (span: 29-34)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'tried' (span: 28-34)
+  Token 6: 'as' (span: 34-37)
+  Token 7: 'they' (span: 37-42)
+  Token 8: '' (span: 42-43)
+  Token 9: 'walked' (span: 43-49)
+  Token 10: 'through' (span: 49-57)
+  Token 11: 'the' (span: 57-61)
+  Token 12: 'city' (span: 61-66)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'tried': [5]
+Matched token texts: ['tried']
+managed to find the word!
+
+Context: They were thinking about the typical as they walked through the city
+Word: 'typical' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'typical' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'typical': [5]
+Matched token texts: ['typical']
+managed to find the word!
+
+Context: They were thinking about the unaware as they walked through the city
+Word: 'unaware' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'unaware' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'unaware': [5]
+Matched token texts: ['unaware']
+managed to find the word!
+
+Context: They were thinking about the usable as they walked through the city
+Word: 'usable' (span: 29-35)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'us' (span: 28-31)
+  Token 6: 'able' (span: 31-35)
+  Token 7: 'as' (span: 35-38)
+  Token 8: 'they' (span: 38-43)
+  Token 9: '' (span: 43-44)
+  Token 10: 'walked' (span: 44-50)
+  Token 11: 'through' (span: 50-58)
+  Token 12: 'the' (span: 58-62)
+  Token 13: 'city' (span: 62-67)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'usable': [5, 6]
+Matched token texts: ['us', 'able']
+managed to find the word!
+
+Context: They were thinking about the useless as they walked through the city
+Word: 'useless' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'useless' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'useless': [5]
+Matched token texts: ['useless']
+managed to find the word!
+
+Context: They were thinking about the vacation as they walked through the city
+Word: 'vacation' (span: 29-37)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'vacation' (span: 28-37)
+  Token 6: 'as' (span: 37-40)
+  Token 7: 'they' (span: 40-45)
+  Token 8: '' (span: 45-46)
+  Token 9: 'walked' (span: 46-52)
+  Token 10: 'through' (span: 52-60)
+  Token 11: 'the' (span: 60-64)
+  Token 12: 'city' (span: 64-69)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'vacation': [5]
+Matched token texts: ['vacation']
+managed to find the word!
+
+Context: They were thinking about the war as they walked through the city
+Word: 'war' (span: 29-32)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'war' (span: 28-32)
+  Token 6: 'as' (span: 32-35)
+  Token 7: 'they' (span: 35-40)
+  Token 8: '' (span: 40-41)
+  Token 9: 'walked' (span: 41-47)
+  Token 10: 'through' (span: 47-55)
+  Token 11: 'the' (span: 55-59)
+  Token 12: 'city' (span: 59-64)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'war': [5]
+Matched token texts: ['war']
+managed to find the word!
+
+Context: They were thinking about the wash as they walked through the city
+Word: 'wash' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'wash' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'wash': [5]
+Matched token texts: ['wash']
+managed to find the word!
+
+Context: They were thinking about the weak as they walked through the city
+Word: 'weak' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'weak' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'weak': [5]
+Matched token texts: ['weak']
+managed to find the word!
+
+Context: They were thinking about the wear as they walked through the city
+Word: 'wear' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'wear' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'wear': [5]
+Matched token texts: ['wear']
+managed to find the word!
+
+Context: They were thinking about the weather as they walked through the city
+Word: 'weather' (span: 29-36)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'weather' (span: 28-36)
+  Token 6: 'as' (span: 36-39)
+  Token 7: 'they' (span: 39-44)
+  Token 8: '' (span: 44-45)
+  Token 9: 'walked' (span: 45-51)
+  Token 10: 'through' (span: 51-59)
+  Token 11: 'the' (span: 59-63)
+  Token 12: 'city' (span: 63-68)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'weather': [5]
+Matched token texts: ['weather']
+managed to find the word!
+
+Context: They were thinking about the willingly as they walked through the city
+Word: 'willingly' (span: 29-38)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'willing' (span: 28-36)
+  Token 6: 'ly' (span: 36-38)
+  Token 7: 'as' (span: 38-41)
+  Token 8: 'they' (span: 41-46)
+  Token 9: '' (span: 46-47)
+  Token 10: 'walked' (span: 47-53)
+  Token 11: 'through' (span: 53-61)
+  Token 12: 'the' (span: 61-65)
+  Token 13: 'city' (span: 65-70)
+  Token 14: '</s>' (span: 0-0)
+Matched token indices for 'willingly': [5, 6]
+Matched token texts: ['willing', 'ly']
+managed to find the word!
+
+Context: They were thinking about the word as they walked through the city
+Word: 'word' (span: 29-33)
+Tokens and offsets:
+  Token 0: 'They' (span: 0-4)
+  Token 1: 'were' (span: 4-9)
+  Token 2: 'thinking' (span: 9-18)
+  Token 3: 'about' (span: 18-24)
+  Token 4: 'the' (span: 24-28)
+  Token 5: 'word' (span: 28-33)
+  Token 6: 'as' (span: 33-36)
+  Token 7: 'they' (span: 36-41)
+  Token 8: '' (span: 41-42)
+  Token 9: 'walked' (span: 42-48)
+  Token 10: 'through' (span: 48-56)
+  Token 11: 'the' (span: 56-60)
+  Token 12: 'city' (span: 60-65)
+  Token 13: '</s>' (span: 0-0)
+Matched token indices for 'word': [5]
+Matched token texts: ['word']
+managed to find the word!
+Contextual embeddings generated and saved to flan_t5_one_general.json
+Number of words processed: 180
+Embedding dimension: 768
+
+
+JOB STATISTICS
+==============
+Job ID: 11864952
+Cluster: snellius
+User/Group: scur2185/scur2185
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:04:21 core-walltime
+Job Wall-clock time: 00:00:29
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 60.00 GB (60.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.

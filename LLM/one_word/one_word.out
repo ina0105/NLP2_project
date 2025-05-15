@@ -1,0 +1,20 @@
+Generating embeddings...
+Embeddings generated and saved to flan_t5_one_word.json
+Number of words processed: 180
+Embedding dimension: 2048
+
+
+JOB STATISTICS
+==============
+Job ID: 11865314
+Cluster: snellius
+User/Group: scur2185/scur2185
+State: RUNNING
+Nodes: 1
+Cores per node: 9
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:09:18 core-walltime
+Job Wall-clock time: 00:01:02
+Memory Utilized: 0.00 MB
+Memory Efficiency: 0.00% of 60.00 GB (60.00 GB/node)
+WARNING: Efficiency statistics can only be obtained after the job has ended as seff tool is based on the accounting database data.
