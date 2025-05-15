@@ -13,24 +13,25 @@ processor = Blip2Processor.from_pretrained(model_path)
 model = Blip2ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch.bfloat16).to(device)
 tokenizer: PreTrainedTokenizerFast = processor.tokenizer
 
-TEMPLATE_SENTENCES= ["The topic was about {}",
-                "They were discussing the {} in the meeting",
-                "The {} was the main focus of the conversation",
-                "During the lecture, they mentioned the {}",
-                "The article discussed various aspects of {}"]
 
-def extract_word_token_indices(word: str, input_ids: torch.Tensor, offsets: List[Tuple[int, int]]) -> List[int]:
-    """
-    Match the tokenized form of the word against the input token sequence and return its indices.
-    """
-    word_tokens = tokenizer(word, add_special_tokens=False).input_ids
-    input_id_list = input_ids.squeeze().tolist()
+def extract_word_token_indices_v2(word: str, text: str, tokenizer) -> List[int]:
+    tokens = tokenizer(text, return_tensors="pt", return_offsets_mapping=True, padding=True, truncation=True)
+    input_ids = tokens["input_ids"][0]
+    offsets = tokens["offset_mapping"][0]
 
-    for i in range(len(input_id_list) - len(word_tokens) + 1):
-        if input_id_list[i:i+len(word_tokens)] == word_tokens:
-            return list(range(i, i + len(word_tokens)))
+    context_lower = text.lower()
+    word_lower = word.lower()
+    word_start = context_lower.find(word_lower)
+    word_end = word_start + len(word_lower)
 
-    return []  # if no match is found
+    matched_indices = []
+    for i, (start, end) in enumerate(offsets.tolist()):
+        if start == 0 and end == 0:
+            continue  # Special token
+        if (start <= word_start < end) or (start < word_end <= end) or (word_start <= start and end <= word_end):
+            matched_indices.append(i)
+
+    return matched_indices
 
 
 def extract_representation_from_image_text(image_path: str, text: str, word: str) -> torch.Tensor:
@@ -43,7 +44,7 @@ def extract_representation_from_image_text(image_path: str, text: str, word: str
 
     input_ids = inputs.input_ids
     offset_mapping = tokenizer(text, return_offsets_mapping=True)["offset_mapping"]
-    token_indices = extract_word_token_indices(word, input_ids, offset_mapping)
+    token_indices = extract_word_token_indices_v2(word, text, tokenizer)
 
     if not token_indices:
         raise ValueError(f"Could not find word '{word}' in tokenized sequence: {tokenizer.convert_ids_to_tokens(input_ids.squeeze())}")
@@ -51,17 +52,33 @@ def extract_representation_from_image_text(image_path: str, text: str, word: str
     word_representation = last_hidden[token_indices].mean(dim=0)  # Average across tokens if split
     return word_representation  # shape: (hidden_dim,)
 
-def extract_representations_for_word(word: str, image_paths: List[str]) -> Dict[str, torch.Tensor]:
+def extract_representations_from_sentences(
+    word: str,
+    image_paths: List[str],
+    sentences: List[str],
+    format_sentences: bool = False
+) -> Dict[str, torch.Tensor]:
     """
-    Return a dictionary mapping text variant to averaged representation over the 6 images.
+    Extract averaged image-grounded word representations for a list of sentence contexts.
+
+    Args:
+        word (str): The target word to extract representations for.
+        image_paths (List[str]): Paths to images associated with the word.
+        sentences (List[str]): Either raw sentences (custom contexts) or templates to be formatted.
+        format_sentences (bool): If True, format each sentence with the word.
+
+    Returns:
+        Dict[str, torch.Tensor]: Mapping from context sentence to averaged representation.
     """
-    text_variants = [template.format(word) for template in TEMPLATE_SENTENCES]
-    reps_by_variant = {}
+    reps_by_context = {}
+
+    text_variants = [s.format(word) if format_sentences else s for s in sentences]
 
     for text in text_variants:
         reps = []
         for image_path in image_paths:
             rep = extract_representation_from_image_text(image_path, text, word)
             reps.append(rep)
-        reps_by_variant[text] = torch.stack(reps).mean(dim=0)  # average over images
-    return reps_by_variant
+        reps_by_context[text] = torch.stack(reps).mean(dim=0)
+
+    return reps_by_context
