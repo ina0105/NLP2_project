@@ -1,0 +1,62 @@
+[
+  {
+    "vlm_rdm": "one_word",
+    "brain_network": "languageLH",
+    "correlation": 0.1046627937967176,
+    "p_value": 1.7732683185752203e-40
+  },
+  {
+    "vlm_rdm": "one_word",
+    "brain_network": "visual",
+    "correlation": 0.11654235241009321,
+    "p_value": 7.884414291413966e-50
+  },
+  {
+    "vlm_rdm": "one_general",
+    "brain_network": "languageLH",
+    "correlation": 0.09923431063901232,
+    "p_value": 1.5271540658454294e-36
+  },
+  {
+    "vlm_rdm": "one_general",
+    "brain_network": "visual",
+    "correlation": 0.08713415291979817,
+    "p_value": 1.5733465885544836e-28
+  },
+  {
+    "vlm_rdm": "one_distinct",
+    "brain_network": "languageLH",
+    "correlation": 0.025878576461389566,
+    "p_value": 0.0010200479232885804
+  },
+  {
+    "vlm_rdm": "one_distinct",
+    "brain_network": "visual",
+    "correlation": 0.009760867559623352,
+    "p_value": 0.215407276797025
+  },
+  {
+    "vlm_rdm": "five_general",
+    "brain_network": "languageLH",
+    "correlation": 0.1100726026860541,
+    "p_value": 1.3072979083123467e-44
+  },
+  {
+    "vlm_rdm": "five_general",
+    "brain_network": "visual",
+    "correlation": 0.11692765330822216,
+    "p_value": 3.7700946810445303e-50
+  },
+  {
+    "vlm_rdm": "five_distinct",
+    "brain_network": "languageLH",
+    "correlation": 0.07352243339204434,
+    "p_value": 9.29630666321101e-21
+  },
+  {
+    "vlm_rdm": "five_distinct",
+    "brain_network": "visual",
+    "correlation": 0.0577113573583798,
+    "p_value": 2.291835674205633e-13
+  }
+]
