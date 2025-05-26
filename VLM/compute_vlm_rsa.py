@@ -1,9 +1,10 @@
 import numpy as np
 import os
-from scipy.stats import spearmanr
+from scipy.stats import spearmanr, ttest_rel
 import json
 import glob
 import csv
+from itertools import combinations
 
 def load_rdm(file_path):
     if file_path.endswith('.npy'):
@@ -23,9 +24,29 @@ def compute_rsa(rdm1, rdm2):
     correlation, p_value = spearmanr(rdm1_ut, rdm2_ut)
     return correlation, p_value
 
-def average_rdms(rdm_files):
-    rdms = [load_rdm(f) for f in rdm_files]
-    return np.mean(rdms, axis=0)
+def compute_participant_level_correlations(vlm_rdm, brain_rdm_files):
+    correlations = []
+    for brain_file in brain_rdm_files:
+        brain_rdm = load_rdm(brain_file)
+        corr, _ = compute_rsa(vlm_rdm, brain_rdm)
+        correlations.append(corr)
+    return np.array(correlations)
+
+def compare_conditions(correlations_dict):
+    comparisons = []
+    for (cond1, corr1), (cond2, corr2) in combinations(correlations_dict.items(), 2):
+        t_stat, p_val = ttest_rel(corr1, corr2)
+        mean_diff = np.mean(corr1) - np.mean(corr2)
+        comparisons.append({
+            'condition1': cond1,
+            'condition2': cond2,
+            't_statistic': t_stat,
+            'p_value': p_val,
+            'mean_diff': mean_diff,
+            'mean_corr1': np.mean(corr1),
+            'mean_corr2': np.mean(corr2)
+        })
+    return comparisons
 
 def main():
     # --- VLM RDMs ---
@@ -45,45 +66,48 @@ def main():
         'visual': glob.glob(os.path.join(brain_rdm_base, 'visual', 'participant_*_visual_rdm.npy')),
     }
 
-    results = []
+    os.makedirs('rsa_results_vlm/statistical_tests', exist_ok=True)
 
-    for vlm_label, vlm_path in vlm_rdm_files.items():
-        if not os.path.exists(vlm_path):
-            print(f"VLM RDM not found: {vlm_path}")
+    for network, rdm_files in brain_networks.items():
+        if not rdm_files:
+            print(f"No RDMs found for brain network: {network}")
             continue
-        vlm_rdm = load_rdm(vlm_path)
 
-        for network, rdm_paths in brain_networks.items():
-            if not rdm_paths:
-                print(f"No RDMs found for brain network: {network}")
+        condition_correlations = {}
+
+        for label, vlm_file in vlm_rdm_files.items():
+            if not os.path.exists(vlm_file):
+                print(f"VLM RDM not found: {vlm_file}")
                 continue
-            avg_brain_rdm = average_rdms(rdm_paths)
-            correlation, p_value = compute_rsa(vlm_rdm, avg_brain_rdm)
 
-            results.append({
-                'vlm_rdm': vlm_label,
-                'brain_network': network,
-                'correlation': correlation,
-                'p_value': p_value
-            })
+            vlm_rdm = load_rdm(vlm_file)
+            correlations = compute_participant_level_correlations(vlm_rdm, rdm_files)
+            condition_correlations[label] = correlations
 
-    # --- Save Results ---
-    os.makedirs('rsa_results_vlm', exist_ok=True)
+            # Save participant-level correlations
+            np.save(f'rsa_results_vlm/statistical_tests/{network}_{label}_correlations.npy', correlations)
 
-    with open('rsa_results_vlm/rsa_summary.json', 'w') as f:
-        json.dump(results, f, indent=2)
+        # Perform condition comparisons
+        comparisons = compare_conditions(condition_correlations)
 
-    with open('rsa_results_vlm/rsa_summary.csv', 'w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['vlm_rdm', 'brain_network', 'correlation', 'p_value'])
-        writer.writeheader()
-        for row in results:
-            writer.writerow(row)
+        # Save to CSV
+        with open(f'rsa_results_vlm/statistical_tests/{network}_comparisons.csv', 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=['condition1', 'condition2', 't_statistic', 'p_value', 'mean_diff', 'mean_corr1', 'mean_corr2'])
+            writer.writeheader()
+            for comp in comparisons:
+                writer.writerow(comp)
 
-    # --- Print Summary ---
-    print("\nVLM RDM\t\tBrain Network\tCorrelation\tP-value")
-    print("------------------------------------------------------")
-    for row in results:
-        print(f"{row['vlm_rdm']:<15}{row['brain_network']:<15}{row['correlation']:.3f}\t\t{row['p_value']:.3e}")
+        # Print results
+        print(f"\nStatistical comparisons for {network} network:")
+        print("------------------------------------------------------")
+        for comp in comparisons:
+            print(f"{comp['condition1']} vs {comp['condition2']}:")
+            print(f"  Mean correlation {comp['condition1']}: {comp['mean_corr1']:.3f}")
+            print(f"  Mean correlation {comp['condition2']}: {comp['mean_corr2']:.3f}")
+            print(f"  Mean difference: {comp['mean_diff']:.3f}")
+            print(f"  t-statistic: {comp['t_statistic']:.3f}")
+            print(f"  p-value: {comp['p_value']:.3e}")
+            print("------------------------------------------------------")
 
 if __name__ == "__main__":
     main()
