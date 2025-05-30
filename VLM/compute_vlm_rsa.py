@@ -48,8 +48,43 @@ def compare_conditions(correlations_dict):
         })
     return comparisons
 
+def compare_networks_by_condition(network_correlations):
+    """
+    Compare correlations between networks for each condition
+    network_correlations: dict with network names as keys, each containing condition correlations
+    """
+    network_comparisons = []
+    networks = list(network_correlations.keys())
+    
+    if len(networks) != 2:
+        print("Warning: Expected exactly 2 networks for comparison")
+        return network_comparisons
+    
+    net1, net2 = networks
+    conditions = set(network_correlations[net1].keys()) & set(network_correlations[net2].keys())
+    
+    for condition in conditions:
+        corr1 = network_correlations[net1][condition]
+        corr2 = network_correlations[net2][condition]
+        
+        t_stat, p_val = ttest_rel(corr1, corr2)
+        mean_diff = np.mean(corr1) - np.mean(corr2)
+        
+        network_comparisons.append({
+            'condition': condition,
+            'network1': net1,
+            'network2': net2,
+            't_statistic': t_stat,
+            'p_value': p_val,
+            'mean_diff': mean_diff,
+            'mean_corr_net1': np.mean(corr1),
+            'mean_corr_net2': np.mean(corr2)
+        })
+    
+    return network_comparisons
+
 def main():
-    # --- VLM RDMs ---
+    # --- BLIP2 VLM RDMs ---
     vlm_rdm_dir = "rdm_output_blip2"
     vlm_rdm_files = {
         'one_word': os.path.join(vlm_rdm_dir, 'vlm_one_word_rdm.npy'),
@@ -66,18 +101,22 @@ def main():
         'visual': glob.glob(os.path.join(brain_rdm_base, 'visual', 'participant_*_visual_rdm.npy')),
     }
 
+    # Output directories
     os.makedirs('rsa_results_vlm/statistical_tests', exist_ok=True)
+
+    # Store all correlations for cross-network comparison
+    all_network_correlations = {}
 
     for network, rdm_files in brain_networks.items():
         if not rdm_files:
-            print(f"No RDMs found for brain network: {network}")
+            print(f"No RDM files found for network: {network}")
             continue
 
         condition_correlations = {}
 
         for label, vlm_file in vlm_rdm_files.items():
             if not os.path.exists(vlm_file):
-                print(f"VLM RDM not found: {vlm_file}")
+                print(f"BLIP2 RDM not found: {vlm_file}")
                 continue
 
             vlm_rdm = load_rdm(vlm_file)
@@ -87,10 +126,12 @@ def main():
             # Save participant-level correlations
             np.save(f'rsa_results_vlm/statistical_tests/{network}_{label}_correlations.npy', correlations)
 
-        # Perform condition comparisons
+        all_network_correlations[network] = condition_correlations
+
+        # Perform paired t-tests within network
         comparisons = compare_conditions(condition_correlations)
 
-        # Save to CSV
+        # Save t-test results
         with open(f'rsa_results_vlm/statistical_tests/{network}_comparisons.csv', 'w', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=['condition1', 'condition2', 't_statistic', 'p_value', 'mean_diff', 'mean_corr1', 'mean_corr2'])
             writer.writeheader()
@@ -107,6 +148,30 @@ def main():
             print(f"  Mean difference: {comp['mean_diff']:.3f}")
             print(f"  t-statistic: {comp['t_statistic']:.3f}")
             print(f"  p-value: {comp['p_value']:.3e}")
+            print("------------------------------------------------------")
+
+    # NEW: Cross-network comparisons
+    if len(all_network_correlations) == 2:
+        network_comparisons = compare_networks_by_condition(all_network_correlations)
+        
+        # Save cross-network comparison results
+        with open('rsa_results_vlm/statistical_tests/network_comparisons.csv', 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=['condition', 'network1', 'network2', 't_statistic', 'p_value', 'mean_diff', 'mean_corr_net1', 'mean_corr_net2'])
+            writer.writeheader()
+            for comp in network_comparisons:
+                writer.writerow(comp)
+
+        # Print cross-network comparison results
+        print(f"\nCross-network comparisons (BLIP-2):")
+        print("======================================================")
+        for comp in network_comparisons:
+            significance = "***" if comp['p_value'] < 0.001 else "**" if comp['p_value'] < 0.01 else "*" if comp['p_value'] < 0.05 else "ns"
+            print(f"Condition: {comp['condition']}")
+            print(f"  {comp['network1']}: {comp['mean_corr_net1']:.3f}")
+            print(f"  {comp['network2']}: {comp['mean_corr_net2']:.3f}")
+            print(f"  Mean difference: {comp['mean_diff']:.3f}")
+            print(f"  t-statistic: {comp['t_statistic']:.3f}")
+            print(f"  p-value: {comp['p_value']:.3e} {significance}")
             print("------------------------------------------------------")
 
 if __name__ == "__main__":
