@@ -19,12 +19,10 @@ def load_rdm(file_path):
 
 def compute_rsa(rdm1, rdm2):
     """Compute RSA using Spearman correlation between upper triangles"""
-    # Get upper triangles (excluding diagonal)
     n = rdm1.shape[0]
     rdm1_up_tri = rdm1[np.triu_indices(n=n, k=1)]
     rdm2_up_tri = rdm2[np.triu_indices(n=n, k=1)]
     
-    # Compute Spearman correlation
     correlation, p_value = spearmanr(rdm1_up_tri, rdm2_up_tri)
     
     return correlation, p_value
@@ -34,7 +32,6 @@ def average_rdms(rdm_files):
     return np.mean(rdms, axis=0)
 
 def main():
-    # List of FLAN RDMs to process
     flan_rdm_files = [
         'rdm_output/llm/flan_t5_one_word_rdm.npy',
         'rdm_output/llm/flan_t5_one_general_rdm.npy',
@@ -67,17 +64,14 @@ def main():
                 'correlation': correlation,
                 'p_value': p_value
             })
-    # Save as JSON
     os.makedirs('rsa_results', exist_ok=True)
     with open('rsa_results/rsa_summary.json', 'w') as f:
         json.dump(results, f, indent=2)
-    # Save as CSV table
     with open('rsa_results/rsa_summary.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['flan_rdm', 'brain_network', 'correlation', 'p_value'])
         writer.writeheader()
         for row in results:
             writer.writerow(row)
-    # Print table
     print("\nFLAN RDM\tBrain Network\tCorrelation\tP-value")
     print("------------------------------------------------------")
     for row in results:

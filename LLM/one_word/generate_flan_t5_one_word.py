@@ -5,26 +5,24 @@ import json
 import os
 
 def get_flan_t5_embeddings(words, model_name="google/flan-t5-xl"):
-    # Load tokenizer and model
+    # tokenizer and model
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
     
-    # Move model to GPU if available
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
     
     embeddings = {}
     
     for word in words:
-        # Tokenize the word
+        # tokenizing the word
         inputs = tokenizer(word, return_tensors="pt", padding=True, truncation=True)
         inputs = {k: v.to(device) for k, v in inputs.items()}
         
-        # Get encoder outputs
         with torch.no_grad():
             outputs = model.encoder(**inputs)
         
-        # Get the embedding (using the last hidden state)
+        # the embedding (using the last hidden state)
         word_embedding = outputs.last_hidden_state.mean(dim=1).squeeze().detach().cpu()
         embeddings[word] = word_embedding.tolist()
     
@@ -56,7 +54,7 @@ def main():
     embeddings = get_flan_t5_embeddings(words)
     os.makedirs("output", exist_ok=True)
 
-    # Save embeddings to a JSON file
+    # saving embeddings 
     with open("output/flan_t5_one_word.json", "w") as f:
         json.dump(embeddings, f)
     

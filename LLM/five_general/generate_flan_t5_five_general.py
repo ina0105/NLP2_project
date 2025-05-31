@@ -4,11 +4,10 @@ import numpy as np
 import json
 from words import words  
 def get_multiple_context_embeddings(words,model_name="google/flan-t5-xl"):
-    # Load tokenizer and model
+    # tokenizer and model
     tokenizer = T5TokenizerFast.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
     
-    # Move model to GPU if available
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
     
@@ -21,7 +20,7 @@ def get_multiple_context_embeddings(words,model_name="google/flan-t5-xl"):
                 f"During the lecture, they mentioned the {word}",
                 f"The article discussed various aspects of {word}"] 
         for context in contexts:        
-        # Tokenize the context
+        # tokenizing the context
             tokens = tokenizer(context, return_tensors="pt", return_offsets_mapping=True, padding=True, truncation=True)
             input_ids = tokens["input_ids"][0]
             offsets = tokens["offset_mapping"][0]
@@ -32,32 +31,15 @@ def get_multiple_context_embeddings(words,model_name="google/flan-t5-xl"):
             word_token_indices = []
             for i, (start, end) in enumerate(offsets.tolist()):
                 if start == 0 and end == 0:
-                    continue  # Special tokens
-                # Check if token span overlaps with word span
+                    continue  # this is for special tokens
                 if (start <= word_start < end) or (start < word_end <= end) or (word_start <= start and end <= word_end):
                     word_token_indices.append(i)
-            # Move inputs to device
             inputs = {k: v.to(device) for k, v in tokens.items() if k != 'offset_mapping'}
             with torch.no_grad():
                 outputs = model.encoder(**inputs)
-                hidden_states = outputs.last_hidden_state.squeeze(0)  # shape: (seq_len, hidden_dim)
-            #ovo izbaci
-            # Print debug info
-            print(f"\nContext: {context}")
-            print(f"Word: '{word}' (span: {word_start}-{word_end})")
-            print("Tokens and offsets:")
-            for i, (token_id, (start, end)) in enumerate(zip(input_ids, offsets.tolist())):
-                token_text = tokenizer.decode([token_id])
-                print(f"  Token {i}: '{token_text}' (span: {start}-{end})")
-            print(f"Matched token indices for '{word}': {word_token_indices}")
+                hidden_states = outputs.last_hidden_state.squeeze(0)  
             if word_token_indices:
-                matched_tokens = [tokenizer.decode([input_ids[i]]) for i in word_token_indices]
-                print(f"Matched token texts: {matched_tokens}")
-            else:
-                print("No tokens matched; using sentence mean.")
-            #ovo izbaci
-            if word_token_indices:
-                # Get the embeddings for the word tokens
+                # embeddings for the word tokens
                 word_embedding = hidden_states[word_token_indices].mean(dim=0)
                 print("managed to find the word!")
             else:
@@ -66,7 +48,7 @@ def get_multiple_context_embeddings(words,model_name="google/flan-t5-xl"):
             word_embedding = word_embedding.detach().cpu()
             print(f"Shape for '{word}' in context: {context} is {word_embedding.shape}")
             word_embeddings.append(word_embedding.numpy() if hasattr(word_embedding, 'numpy') else np.array(word_embedding))        # Average the embeddings from all contexts
-        combined_embedding = np.mean(word_embeddings, axis=0)
+        combined_embedding = np.mean(word_embeddings, axis=0) #mean across contexts
         embeddings[word] = combined_embedding.tolist()
     
     return embeddings
@@ -75,7 +57,7 @@ def main():
     print("Generating embeddings from multiple contexts...")
     embeddings = get_multiple_context_embeddings(words)
     
-    # Save embeddings to a JSON file
+    # saving embeddings 
     with open("flan_t5_five_general.json", "w") as f:
         json.dump(embeddings, f)
     
