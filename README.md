@@ -79,7 +79,7 @@ The `LLM` directory contains scripts for processing and analyzing language model
 The `VLM` directory contains scripts for processing and analyzing vision-language model representations using BLIP-2:
 
 ### Key Components
-- `extract_blip2_representations.py`: Extracts representations from BLIP-2 model
+- `extract_blip2_representations.py`: Contain the general helper functions for extracting representations from the BLIP-2 model
 - `make_vlm_rdm.py`: Generates RDMs from VLM representations
 - `compute_vlm_rsa.py`: Computes RSA between VLM and fMRI representations
 - Various generation scripts for different context types:
