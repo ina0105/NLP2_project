@@ -95,9 +95,9 @@ The `VLM` directory contains scripts for processing and analyzing vision-languag
 conda env create -f VLM/vlm_environment.yml
 ```
 
-2. Extract representations:
+2. Extract representations (using the One Word context type as example):
 ```bash
-python extract_blip2_representations.py
+python generate_blip2_one_word.py
 ```
 
 3. Generate RDMs:
